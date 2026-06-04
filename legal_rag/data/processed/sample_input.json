@@ -1,0 +1,46 @@
+{
+  "doc_id": "sample_input",
+  "source_path": "C:\\Users\\91635\\OneDrive\\Desktop\\Assignment\\legal_rag\\samples\\sample_input.pdf",
+  "pages": [
+    {
+      "page_num": 1,
+      "text": "IN THE SUPERIOR COURT OF CALIFORNIA\nCOUNTY OF SAN FRANCISCO\nCase No.: CGC-24-582910\nPlaintiff: Rivera Properties LLC\nDefendant: Bayview Tenants Association\nNOTICE OF HEARING\nPlease take notice that a hearing on the motion for summary judgment\nis scheduled for March 15, 2025 at 9:00 a.m. in Department 302.\nThe matter concerns alleged breach of the lease agreement dated\nJanuary 12, 2023. See 42 U.S.C. Section 1983 for related federal claims.\nDated: June 1, 2025\nRespectfully submitted,\nCounsel for Plaintiff",
+      "extraction_method": "native",
+      "confidence": 0.95,
+      "warnings": []
+    }
+  ],
+  "full_text": "--- PAGE 1 ---\nIN THE SUPERIOR COURT OF CALIFORNIA\nCOUNTY OF SAN FRANCISCO\nCase No.: CGC-24-582910\nPlaintiff: Rivera Properties LLC\nDefendant: Bayview Tenants Association\nNOTICE OF HEARING\nPlease take notice that a hearing on the motion for summary judgment\nis scheduled for March 15, 2025 at 9:00 a.m. in Department 302.\nThe matter concerns alleged breach of the lease agreement dated\nJanuary 12, 2023. See 42 U.S.C. Section 1983 for related federal claims.\nDated: June 1, 2025\nRespectfully submitted,\nCounsel for Plaintiff",
+  "fields": {
+    "parties": [
+      "Rivera Properties LLC",
+      "Bayview Tenants Association",
+      "Rivera Properties LLC Defendant"
+    ],
+    "dates": [
+      "March 15, 2025",
+      "January 12, 2023",
+      "June 1, 2025"
+    ],
+    "case_numbers": [
+      "CGC-24-582910"
+    ],
+    "document_type": "notice_of_hearing",
+    "jurisdictions": [
+      "IN THE SUPERIOR COURT OF CALIFORNIA"
+    ],
+    "statute_refs": [
+      "42 U.S.C. Section 1983"
+    ]
+  },
+  "ingest_metadata": {
+    "ingested_at": "2026-06-04T17:41:36.307913+00:00",
+    "source_filename": "sample_input.pdf",
+    "source_size_bytes": 2028,
+    "total_pages": 1,
+    "non_empty_pages": 1,
+    "ocr_pages": 0,
+    "native_pages": 1,
+    "low_confidence_pages": []
+  }
+}

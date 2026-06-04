@@ -1,0 +1,19 @@
+{
+  "draft_type": "case_fact_summary",
+  "summary": "First-pass memo for CGC-24-582910: Rivera Properties LLC vs Bayview Tenants Association. Hearing scheduled March 15, 2025.",
+  "checklist": [
+    {"item": "Case number identified", "status": "present", "source_ids": ["sample_input::p1::c0"]},
+    {"item": "Parties identified", "status": "present", "source_ids": ["sample_input::p1::c0"]},
+    {"item": "Hearing or key date identified", "status": "present", "source_ids": ["sample_input::p1::c0"]}
+  ],
+  "claims": [
+    {
+      "statement": "Case No.: CGC-24-582910",
+      "source_ids": ["sample_input::p1::c0"],
+      "supporting_excerpt": "Case No.: CGC-24-582910",
+      "grounding_score": 1.0
+    }
+  ],
+  "grounding_passed": true,
+  "generation_mode": "mock_extractive"
+}

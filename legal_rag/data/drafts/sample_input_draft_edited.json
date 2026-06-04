@@ -1,0 +1,49 @@
+{
+  "draft_type": "case_fact_summary",
+  "summary": "Case No. priority — First-pass memo for CGC-24-582910: Rivera Properties LLC vs Bayview Tenants Association. Key date referenced: March 15, 2025. Task: Prepare a case fact summary and document checklist from the evidence.. Lead with parties and hearing date in the first sentence.",
+  "checklist": [
+    {
+      "item": "Case number identified",
+      "status": "present",
+      "source_ids": [
+        "sample_input::p1::c0"
+      ]
+    },
+    {
+      "item": "Parties identified",
+      "status": "present",
+      "source_ids": [
+        "sample_input::p1::c0"
+      ]
+    },
+    {
+      "item": "Hearing or key date identified",
+      "status": "present",
+      "source_ids": [
+        "sample_input::p1::c0"
+      ]
+    }
+  ],
+  "claims": [
+    {
+      "statement": "IN THE SUPERIOR COURT OF CALIFORNIA\nCOUNTY OF SAN FRANCISCO\nCase No.: CGC-24-582910\nPlaintiff: Rivera Properties LLC\nDefendant: Bayview Tenants Association\nNOTICE OF HEARING\nPlease take notice that a .",
+      "source_ids": [
+        "sample_input::p1::c0"
+      ],
+      "supporting_excerpt": "IN THE SUPERIOR COURT OF CALIFORNIA\nCOUNTY OF SAN FRANCISCO\nCase No.: CGC-24-582910\nPlaintiff: Rivera Properties LLC\nDefendant: Bayview Tenants Association\nNOTICE OF HEARING\nPlease take notice that a hearing on the motion for summary judgme",
+      "grounding_score": 1.0
+    }
+  ],
+  "generation_mode": "mock_extractive",
+  "doc_id": "sample_input",
+  "task": "Prepare a case fact summary and document checklist from the evidence.",
+  "evidence_ids": [
+    "sample_input::p1::c0"
+  ],
+  "unsupported_removed": [],
+  "grounding_passed": true,
+  "grounding_stats": {
+    "verified": 1,
+    "removed": 0
+  }
+}
