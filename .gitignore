@@ -1,0 +1,14 @@
+.venv/
+legal_rag/data/chroma/
+legal_rag/data/*.sqlite3
+legal_rag/data/bm25.pkl
+legal_rag/data/edits/
+legal_rag/data/feedback_chroma/
+legal_rag/data/*.pkl
+legal_rag/data/*.db
+__pycache__/
+*.pyc
+.vscode/
+/.env
+*.log
+*.sqlite3
